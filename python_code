@@ -1,0 +1,16 @@
+expected_minutes_in_oven = 40
+
+def remaining_minutes_in_oven(time_in_oven:int):
+  return expected_minutes_in_oven - time_in_oven
+  
+remaining_minutes_in_oven(30)
+
+def preparation_time_in_minutes(layers):
+  return layers * 2
+  
+preparation_time_in_minutes(4)
+
+def total_time_in_minutes(number_of_layers, actual_minutes_in_oven):
+  return number_of_layers * 2 + actual_minutes_in_oven
+  
+total_time_in_minutes(3, 20)
